@@ -31,9 +31,13 @@
         height: 10vh;
       }
     }
+  }
 
-    .shrinkNav {
-      height: 10vh;
+  .home {
+    margin-left: 60px;
+
+    &_name {
+      font-size: 5rem;
     }
   }
 
@@ -56,6 +60,11 @@
   .contact_list {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 8rem;
+    margin-left: 20px;
+
+    .text-secondary {
+      font-size: 20px;
+    }
   }
 }
 
