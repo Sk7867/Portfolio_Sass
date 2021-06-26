@@ -25,6 +25,7 @@
   h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
+    color: $secondary-color;
   }
 
   &_list {
@@ -32,7 +33,7 @@
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     font-size: 1.5rem;
-    margin-left: 0;
+    margin-left: 20px;
 
     .text_secondary {
       font-size: 20px;
