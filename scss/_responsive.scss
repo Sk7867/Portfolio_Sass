@@ -41,8 +41,19 @@
     }
   }
 
-  .about_bio {
-    font-size: 1.5rem;
+  .about {
+    .about_bio {
+      font-size: 1.5rem;
+    }
+
+    .jobs {
+      &_job {
+        h2,
+        h3 {
+          font-size: 2rem;
+        }
+      }
+    }
   }
 
   .projects {
@@ -80,6 +91,7 @@
       }
     }
   }
+
   .projects {
     &_items {
       grid-template-columns: repeat(2, 1fr);
