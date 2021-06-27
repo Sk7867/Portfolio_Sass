@@ -88,6 +88,7 @@
     &_item {
       transform: translateX(100vw);
       @include transition-ease;
+      font-family: $text;
 
       &.open {
         transform: translateX(0);

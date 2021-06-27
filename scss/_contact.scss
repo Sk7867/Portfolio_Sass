@@ -28,15 +28,26 @@
     color: $secondary-color;
   }
 
+  &_email {
+    font-family: $heading;
+    letter-spacing: 0.8px;
+  }
+
+  &_phone {
+    @extend .contact_email;
+  }
+
   &_list {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     font-size: 1.5rem;
     margin-left: 20px;
+    text-align: center;
 
     .text_secondary {
       font-size: 20px;
+      font-family: $text;
     }
   }
 }

@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
 $primary-color: #272727;
 $secondary-color: #e23509;
+$heading: 'Bebas Neue', cursive;
+$text: 'Montserrat', sans-serif;
 
 @mixin transition-ease {
   transition: all 0.4s ease-in-out;

@@ -17,8 +17,10 @@
     justify-content: center;
 
     p {
-      margin-bottom: 2rem;
-      line-height: 2.3rem;
+      margin: 0 auto 2rem;
+      line-height: 1.8rem;
+      font-family: $text;
+      width: 95%;
     }
   }
 
@@ -51,10 +53,13 @@
       }
       h6 {
         margin: 0.5rem 0;
+        font-family: $text;
+        letter-spacing: 1px;
       }
 
       p {
         line-height: 1.3rem;
+        font-family: $text;
       }
     }
   }

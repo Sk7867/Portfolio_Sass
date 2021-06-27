@@ -1,6 +1,6 @@
 .home {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 30vh;
   overflow: hidden;
   align-items: center;
   text-align: left;
@@ -12,10 +12,14 @@
     url(../images/hero_image_1-min.jpg) center top;
   background-size: cover;
   background-size: cover;
-  margin-left: 40px;
 
   &_name {
     font-size: 4.5rem;
     padding-bottom: 1rem;
+    margin-left: 40px;
+  }
+
+  h2 {
+    margin-left: 40px;
   }
 }
