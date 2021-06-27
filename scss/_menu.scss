@@ -75,7 +75,11 @@
     height: 100vh;
     overflow: hidden;
     list-style: none;
-    background-color: $primary-color;
+    background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.7)
+    );
     list-style-type: none;
     padding-right: 1rem;
     transform: translateY(-100%);
