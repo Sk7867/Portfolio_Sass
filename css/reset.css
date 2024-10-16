@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  line-height: 1;
+  scroll-behavior: smooth;  
+  /* scroll-margin-block-start: 30px; */
+  /* background: green; */
+}
