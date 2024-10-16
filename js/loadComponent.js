@@ -1,9 +1,9 @@
 let componentMap = [
   {
     componentId: 'headerComp',
-    htmlFilePath: './../components/header/header.html',
-    cssFilePath: './../components/header/header.css',
-    jsFilePath: './../components/header/header.js'
+    htmlFilePath: '/components/header/header.html',
+    cssFilePath: '/components/header/header.css',
+    jsFilePath: '/components/header/header.js'
   }
 ]
 
