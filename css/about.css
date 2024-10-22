@@ -1,0 +1,51 @@
+.about{
+  padding-bottom: 2rem;
+}
+
+.about_bio_image {
+  height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(38,38,38,0.9)), to(rgba(38,38,38,0.3))),url("../images/hero_image_2-min.jpg") center center;
+  background: linear-gradient(to right, rgba(38,38,38,0.9), rgba(38,38,38,0.3)),url("../images/hero_image_2-min.jpg") center center;
+    background-size: auto, auto;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.about_bio {
+  width: 80%;
+  text-align: center;
+}
+
+.text_secondary {
+  color: #e13509;
+  font-size: 3rem;
+}
+
+.about_bio_image p {
+  margin: 0 auto 2rem;
+  line-height: 1.8rem;
+  font-family: "Montserrat",sans-serif;
+  width: 95%;
+}
+
+@media screen and (min-width: 768px) {
+  .about .about_bio {
+    font-size: 1.5rem;
+  }
+  .about .about_bio p {
+    font-size: 1.2rem;
+  }
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,7 +7,28 @@
   list-style: none;
   text-decoration: none;
   line-height: 1;
-  scroll-behavior: smooth;  
   /* scroll-margin-block-start: 30px; */
   /* background: green; */
+}
+
+html{
+  scroll-behavior: smooth;  
+}
+
+body{
+  background: #262626;
+  color: #fff;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  font-family: "Bebas Neue",cursive;
+  letter-spacing: 1.2px;
+}
+
+main{
+  height: 100%;
+  width: 100%;
 }
