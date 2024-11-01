@@ -41,11 +41,73 @@
   width: 95%;
 }
 
+.about .jobs{
+  width: 75vw;
+  height: 100vh;
+  margin: 2rem auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.about .jobs_container{
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr ;
+  grid-gap: 2rem;
+  margin-block-start: 25px;
+}
+
+.about .jobs_job{
+  background: #404040;
+  padding: 0.5rem;
+  border-bottom: 5px solid #e13509;
+  border-radius: 8px;
+}
+
+.about .jobs_job h2, .about .jobs_job h3 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.about .jobs_job h6 {
+  margin: 0.5rem 0;
+  /* font-family: "Montserrat",sans-serif; */
+  letter-spacing: 1px;
+}
+
+.about .jobs_job p {
+  line-height: 1.3rem;
+  /* font-family: "Montserrat",sans-serif; */
+}
+
 @media screen and (min-width: 768px) {
   .about .about_bio {
     font-size: 1.5rem;
   }
   .about .about_bio p {
     font-size: 1.2rem;
+  }
+  
+  .about .jobs_container{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .about .jobs_job h2, .about .jobs_job h3 {
+    font-size: 2rem;
   }
 }
