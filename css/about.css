@@ -43,7 +43,7 @@
 
 .about .jobs{
   width: 75vw;
-  height: 100vh;
+  height: 100%;
   margin: 2rem auto 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,10 +98,6 @@
   }
   .about .about_bio p {
     font-size: 1.2rem;
-  }
-
-  .about .jobs{
-    height: 140vh;
   }
   
   .about .jobs_container{
