@@ -1,14 +1,19 @@
-.about{
+.about {
   padding-bottom: 2rem;
+  background: linear-gradient(
+      to right,
+      rgba(38, 38, 38, 0.9),
+      rgba(38, 38, 38, 0.3)
+    ),
+    url("../images/hero_image_2-min.jpg") center center;
 }
 
 .about_bio_image {
-  height: 100vh;
-  width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(38,38,38,0.9)), to(rgba(38,38,38,0.3))),url("../images/hero_image_2-min.jpg") center center;
-  background: linear-gradient(to right, rgba(38,38,38,0.9), rgba(38,38,38,0.3)),url("../images/hero_image_2-min.jpg") center center;
+  /* height: 100vh;
+  width: 100%; */
+  /* background: -webkit-gradient(linear, left top, right top, from(rgba(38,38,38,0.9)), to(rgba(38,38,38,0.3))),url("../images/hero_image_2-min.jpg") center center;
     background-size: auto, auto;
-  background-size: cover;
+  background-size: cover; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,59 +42,8 @@
 .about_bio_image p {
   margin: 0 auto 2rem;
   line-height: 1.8rem;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 95%;
-}
-
-.about .jobs{
-  width: 75vw;
-  height: 100%;
-  margin: 2rem auto 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.about .jobs_container{
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr ;
-  grid-gap: 2rem;
-  margin-block-start: 25px;
-}
-
-.about .jobs_job{
-  background: #404040;
-  padding: 0.5rem;
-  border-bottom: 5px solid #e13509;
-  border-radius: 8px;
-}
-
-.about .jobs_job h2, .about .jobs_job h3 {
-  margin: 0.5rem 0;
-  font-size: 1.5rem;
-}
-
-.about .jobs_job h6 {
-  margin: 0.5rem 0;
-  /* font-family: "Montserrat",sans-serif; */
-  letter-spacing: 1px;
-}
-
-.about .jobs_job p {
-  line-height: 1.3rem;
-  /* font-family: "Montserrat",sans-serif; */
 }
 
 @media screen and (min-width: 768px) {
@@ -98,16 +52,5 @@
   }
   .about .about_bio p {
     font-size: 1.2rem;
-  }
-  
-  .about .jobs_container{
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .about .jobs_job h2, .about .jobs_job h3 {
-    font-size: 2rem;
   }
 }

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Google Tag Manager -->
-    <script>
+    <!-- <script>
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
@@ -16,7 +16,7 @@
         j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
         f.parentNode.insertBefore(j, f);
       })(window, document, "script", "dataLayer", "GTM-N3K4HB5Z");
-    </script>
+    </script> -->
     <!-- End Google Tag Manager -->
     <script
       src="https://kit.fontawesome.com/d8c698927d.js"
@@ -27,22 +27,24 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/experience.css" />
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/socials.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/common.css" />
     <title>Siddhesh Kamble Portfolio</title>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript
+    <!-- <noscript
       ><iframe
         src="https://www.googletagmanager.com/ns.html?id=GTM-N3K4HB5Z"
         height="0"
         width="0"
         style="display: none; visibility: hidden"
       ></iframe
-    ></noscript>
+    ></noscript> -->
     <!-- End Google Tag Manager (noscript) -->
     <header id="headerComp">
       <div class="menu_btn">
@@ -103,20 +105,99 @@
     </header> -->
 
     <main>
-      <section class="home" id="home">
-        <div class="home_bio">
-          <h2>HI! My Name is</h2>
-          <h1 class="home_name">Siddhesh Kamble</h1>
-          <h2>Web Developer and Programmer</h2>
-        </div>
-        <div class="down_arrow_container">
-          <i class="fas fa-chevron-down"></i>
-          <i class="fas fa-chevron-down"></i>
-          <i class="fas fa-chevron-down"></i>
+      <section class="home section_container" id="home">
+        <div class="content_wrapper">
+          <div class="home_bio">
+            <h2>HI! My Name is</h2>
+            <h1 class="home_name">Siddhesh Kamble</h1>
+            <h2>Web Developer and Programmer</h2>
+          </div>
+          <div class="down_arrow_container">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-chevron-down"></i>
+          </div>
         </div>
       </section>
 
-      <section class="about" id="about">
+      <section class="about section_container">
+        <div class="content_wrapper">
+          <div class="about_bio_image">
+            <div class="about_bio">
+              <h2 class="text_secondary">About Me</h2>
+              <p>
+                Hi, I'm Siddhesh Kamble, a passionate software developer with
+                expertise in front-end web development. With a proven track
+                record of delivering high-quality solutions, I specialize in
+                building robust, scalable applications that solve real-world
+                problems. My love for coding goes beyond the technical
+                aspect—it's about creating meaningful experiences for users.
+              </p>
+            </div>
+            <div class="about_bio">
+              <h2 class="text_secondary">Skills</h2>
+              <p>
+                My core skills include JavaScript, React, NextJs, and Angular.
+                I'm also experienced in version control (Git) and CI/CD
+                pipelines (Jenkins). My development process combines best
+                practices in agile and test-driven development to deliver
+                robust, scalable code.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="experience section_container">
+        <div class="content_wrapper">
+          <div class="jobs">
+            <h2 class="text_secondary section_heading">Experience</h2>
+            <div class="jobs_container">
+              <div class="jobs_job">
+                <h2 class="text_secondary">June 2019 - July 2019</h2>
+                <h3>SAHU Technologies</h3>
+                <h6>Web Development Intern</h6>
+                <p>
+                  Learnt web development languages like html5, css3 in depth.
+                  Built various websites during the learning process.
+                </p>
+              </div>
+              <div class="jobs_job">
+                <h2 class="text_secondary">Nov 2020 - Dec 2020</h2>
+                <h3>The Sparks Foundation</h3>
+                <h6>Web Development Intern</h6>
+                <p>
+                  Built bank website to perform money transactions. Used HTML5,
+                  CSS3 and PHP to design website and perform various
+                  transactions between bank accounts.
+                </p>
+              </div>
+              <div class="jobs_job">
+                <h2 class="text_secondary">Aug 2021 - Feb 2022</h2>
+                <h3>Across The Globe(ATG)</h3>
+                <h6>Frontend Development Intern</h6>
+                <p>
+                  Developed landing pages and web applications using Reactjs and
+                  Nextjs
+                </p>
+                <p>
+                  Maintained quality assurance through code testing and
+                  cross-browser testing.
+                </p>
+                <p>
+                  Adhered to best practices for software development methodology
+                  and web security.
+                </p>
+              </div>
+              <div class="jobs_job">
+                <h2 class="text_secondary">Mar 2022 - Ongoing</h2>
+                <h3>Apexon</h3>
+                <h6>Frontend Developer</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="about" id="about">
         <div class="about_bio_image">
           <div class="about_bio">
             <h2 class="text_secondary">About Me</h2>
@@ -138,55 +219,55 @@
               and test-driven development to deliver robust, scalable code.
             </p>
           </div>
-        </div>
-        <!-- TODO: Load Jobs using BE GET APIS -->
-        <div class="jobs">
-          <h2 class="text_secondary section_heading">Experience</h2>
-          <div class="jobs_container">
-            <div class="jobs_job">
-              <h2 class="text_secondary">June 2019 - July 2019</h2>
-              <h3>SAHU Technologies</h3>
-              <h6>Web Development Intern</h6>
-              <p>
-                Learnt web development languages like html5, css3 in depth.
-                Built various websites during the learning process.
-              </p>
-            </div>
-            <div class="jobs_job">
-              <h2 class="text_secondary">Nov 2020 - Dec 2020</h2>
-              <h3>The Sparks Foundation</h3>
-              <h6>Web Development Intern</h6>
-              <p>
-                Built bank website to perform money transactions. Used HTML5,
-                CSS3 and PHP to design website and perform various transactions
-                between bank accounts.
-              </p>
-            </div>
-            <div class="jobs_job">
-              <h2 class="text_secondary">Aug 2021 - Feb 2022</h2>
-              <h3>Across The Globe(ATG)</h3>
-              <h6>Frontend Development Intern</h6>
-              <p>
-                Developed landing pages and web applications using Reactjs and
-                Nextjs
-              </p>
-              <p>
-                Maintained quality assurance through code testing and
-                cross-browser testing.
-              </p>
-              <p>
-                Adhered to best practices for software development methodology
-                and web security.
-              </p>
-            </div>
-            <div class="jobs_job">
-              <h2 class="text_secondary">Mar 2022 - Ongoing</h2>
-              <h3>Apexon</h3>
-              <h6>Frontend Developer</h6>
-            </div>
+        </div> -->
+      <!-- TODO: Load Jobs using BE GET APIS -->
+      <!-- <div class="jobs">
+        <h2 class="text_secondary section_heading">Experience</h2>
+        <div class="jobs_container">
+          <div class="jobs_job">
+            <h2 class="text_secondary">June 2019 - July 2019</h2>
+            <h3>SAHU Technologies</h3>
+            <h6>Web Development Intern</h6>
+            <p>
+              Learnt web development languages like html5, css3 in depth. Built
+              various websites during the learning process.
+            </p>
+          </div>
+          <div class="jobs_job">
+            <h2 class="text_secondary">Nov 2020 - Dec 2020</h2>
+            <h3>The Sparks Foundation</h3>
+            <h6>Web Development Intern</h6>
+            <p>
+              Built bank website to perform money transactions. Used HTML5, CSS3
+              and PHP to design website and perform various transactions between
+              bank accounts.
+            </p>
+          </div>
+          <div class="jobs_job">
+            <h2 class="text_secondary">Aug 2021 - Feb 2022</h2>
+            <h3>Across The Globe(ATG)</h3>
+            <h6>Frontend Development Intern</h6>
+            <p>
+              Developed landing pages and web applications using Reactjs and
+              Nextjs
+            </p>
+            <p>
+              Maintained quality assurance through code testing and
+              cross-browser testing.
+            </p>
+            <p>
+              Adhered to best practices for software development methodology and
+              web security.
+            </p>
+          </div>
+          <div class="jobs_job">
+            <h2 class="text_secondary">Mar 2022 - Ongoing</h2>
+            <h3>Apexon</h3>
+            <h6>Frontend Developer</h6>
           </div>
         </div>
-      </section>
+      </div> -->
+      <!-- </section> -->
 
       <section class="projects" id="projects">
         <div class="projects_bio_image">
