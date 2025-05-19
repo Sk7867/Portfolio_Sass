@@ -117,6 +117,10 @@
   opacity: 1;
 }
 
+.projects_btn:hover {
+  color: #fff;
+}
+
 /* .projects_item_enhancement {
   background-color: red;
   width: 250px;
