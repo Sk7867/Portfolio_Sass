@@ -8,7 +8,7 @@ function fetchData() {
 let processData = (data) => {
   // console.log(data);
   handleJobsData(data);
-  handleProjectsData(data.projects);
+  // handleProjectsData(data.projects);
 };
 
 let handleJobsData = (data) => {
