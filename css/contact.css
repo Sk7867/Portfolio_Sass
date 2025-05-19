@@ -1,0 +1,117 @@
+.contact {
+  height: 100%;
+  padding-top: 10vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: linear-gradient(
+      to right,
+      rgba(38, 38, 38, 0.9),
+      rgba(38, 38, 38, 0.3)
+    ),
+    url(../images/contact_image-min.jpg) center center;
+  background-size: cover;
+}
+
+.contact .content_wrapper {
+  flex-direction: column;
+  justify-content: center;
+  gap: 150px;
+}
+
+.contact_heading {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.contact h2 {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.contact_list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.contact_email,
+.contact_phone {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.8px;
+}
+
+.contact_list .text_secondary {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0px;
+}
+
+.contact_email i,
+.contact_phone i {
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact_email:hover i,
+.contact_email:hover span,
+.contact_phone:hover i,
+.contact_phone:hover span {
+  color: #e13509;
+}
+
+.contact_list .contact_link {
+  color: #ffffff;
+  border-style: none;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .contact_list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8rem;
+    margin-left: 75px;
+    text-align: left;
+  }
+
+  .contact_list .contact_email,
+  .contact_list .contact_phone,
+  .contact_list .contact_phone {
+    font-size: 1.8rem;
+  }
+
+  .contact_list .text_secondary {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact_list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8rem;
+  }
+}

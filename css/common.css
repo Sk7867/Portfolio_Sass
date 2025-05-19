@@ -1,0 +1,28 @@
+.section_container {
+  height: 100vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: left;
+  position: relative;
+  background-size: cover;
+  padding: 5% 4%;
+}
+
+.content_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .section_container {
+    height: auto;
+  }
+}
+
+.fullPage_height {
+  height: 100vh;
+}

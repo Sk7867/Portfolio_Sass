@@ -1,0 +1,46 @@
+main .social_icons {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+main .social_icons a {
+  padding: 0.4rem;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+main .social_icons a .tip_text {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  left: 85%;
+  font-size: 0.8rem;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+main .social_icons a:hover {
+  color: #e13509;
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+main .social_icons a:hover .tip_text {
+  visibility: visible;
+}
